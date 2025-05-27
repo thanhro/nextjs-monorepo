@@ -5,6 +5,12 @@
   "references": [
     {
       "path": "./apps/pnt"
+    },
+    {
+      "path": "./apps/tms"
+    },
+    {
+      "path": "./apps/partners"
     }
   ]
 }
