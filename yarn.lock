@@ -933,7 +933,7 @@
     "@commitlint/types" "^19.8.0"
     conventional-changelog-conventionalcommits "^7.0.2"
 
-"@commitlint/config-nx-scopes@^19.8.1":
+"@commitlint/config-nx-scopes@19.8.1":
   version "19.8.1"
   resolved "https://registry.yarnpkg.com/@commitlint/config-nx-scopes/-/config-nx-scopes-19.8.1.tgz#224e0af3b78b1a0287f9c22c15b8f3d5f6403cca"
   integrity sha512-BPkNs+grzc0bPmQCCP52Ml1FnGmS4JESOuD61Rz0oO/SaM0GM5+0XJBThb7xdgpu4YltH8tYBg5cVqVu93CMug==
@@ -965,7 +965,7 @@
   resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-19.8.1.tgz#53000363b737773e2d25e97c20f15eaa78742067"
   integrity sha512-YfJyIqIKWI64Mgvn/sE7FXvVMQER/Cd+s3hZke6cI1xgNT/f6ZAz5heND0QtffH+KbcqAwXDEE1/5niYayYaQA==
 
-"@commitlint/format@^19.8.0":
+"@commitlint/format@19.8.1", "@commitlint/format@^19.8.0":
   version "19.8.1"
   resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-19.8.1.tgz#3e09b1291b3e29092d7a86f0afbbcfc0d99d3ad4"
   integrity sha512-kSJj34Rp10ItP+Eh9oCItiuN/HwGQMXBnIRk69jdOwEW9llW9FlyqcWYbHPSGofmjsqeoxa38UaEA5tsbm2JWw==
