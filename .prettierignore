@@ -3,3 +3,9 @@
 /coverage
 /.nx/cache
 /.nx/workspace-data
+build
+coverage
+node_modules
+dist
+.next
+.yarn

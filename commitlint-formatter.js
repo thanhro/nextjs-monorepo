@@ -13,7 +13,7 @@ module.exports = (report) => {
       result.errors.map((err) => ({
         file: result.input,
         message: err.message,
-      }))
+      })),
     )
     .flat();
 
