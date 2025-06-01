@@ -3,14 +3,5 @@
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint"
-  ],
-  "files.eol": "\n",
-  "tailwindCSS.experimental.classRegex": [
-    ["clsx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-  ],
-  "tailwindCSS.includeLanguages": {
-    "typescript": "html",
-    "typescriptreact": "html"
-  }
+  ]
 }

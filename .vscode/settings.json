@@ -8,5 +8,6 @@
     "typescript": "html",
     "typescriptreact": "html"
   },
-  "eslint.validate": ["javascript", "typescript", "typescriptreact"]
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "tailwindCSS.experimental.configFile": "./tailwind.config.js"
 }
