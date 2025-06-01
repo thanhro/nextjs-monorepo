@@ -72,7 +72,14 @@ export default [
       "no-undef": "off",
 
       // TypeScript-specific
-      "@typescript-eslint/no-unused-vars": ["error", { args: "none", varsIgnorePattern: "^_" }],
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          args: "all",
+          argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+        },
+      ],
       "@typescript-eslint/no-explicit-any": 0,
 
       // Import
