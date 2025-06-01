@@ -1,28 +1,19 @@
-const path = require("path")
-
 const getProjectFromPath = (filePath) => {
   if (filePath.startsWith("apps/tms/")) return "tms"
   if (filePath.startsWith("apps/partner/")) return "partner"
   if (filePath.startsWith("apps/pnt/")) return "pnt"
-  return null // nếu cần ignore file ngoài app
+  return null
 }
 
 module.exports = (filenames) => {
-  const projectFilesMap = {}
+  const affectedProjects = new Set()
 
   filenames.forEach((file) => {
     const project = getProjectFromPath(file)
-    if (!project) return // Bỏ qua file không thuộc app
-
-    if (!projectFilesMap[project]) {
-      projectFilesMap[project] = []
+    if (project) {
+      affectedProjects.add(project)
     }
-
-    projectFilesMap[project].push(file)
   })
 
-  return Object.entries(projectFilesMap).map(([project, files]) => {
-    const relativeFiles = files.map((f) => path.relative(process.cwd(), f)).join(" ")
-    return `eslint --fix ${relativeFiles} --config apps/${project}/eslint.config.js`
-  })
+  return [...affectedProjects].map((project) => `nx lint ${project} --fix`)
 }

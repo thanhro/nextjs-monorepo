@@ -70,6 +70,7 @@ export default [
       "arrow-body-style": "off",
       camelcase: "off",
       "no-undef": "off",
+      "no-unused-vars": ["error", { args: "after-used", argsIgnorePattern: "^_" }],
 
       // TypeScript-specific
       "@typescript-eslint/no-unused-vars": [
@@ -81,17 +82,6 @@ export default [
         },
       ],
       "@typescript-eslint/no-explicit-any": 0,
-
-      // Import
-      // "import/export": "error",
-      // "import/first": "error",
-      // "import/no-duplicates": "error",
-      // "import/newline-after-import": "error",
-      // "import/no-empty-named-blocks": "error",
-      // "import/no-useless-path-segments": "off",
-      // "import/no-unresolved": "off",
-      // "import/namespace": "off",
-      // "import/no-anonymous-default-export": "off",
 
       // Sort
       "simple-import-sort/imports": "error",
