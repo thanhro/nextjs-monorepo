@@ -10,7 +10,15 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/bitbucket-pipelines.yml"]
   },
-  "nxCloudId": "683623111b5ffd41998bb3ac",
+  // "nxCloudId": "683623111b5ffd41998bb3ac",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nx/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test"]
+      }
+    }
+  },
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
