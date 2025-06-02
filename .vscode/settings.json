@@ -2,10 +2,7 @@
   "files.eol": "\n",
   "tailwindCSS.experimental.classRegex": [
     ["clsx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["className\\s*=\\s*\"([^\"]*)", 1],
-    ["className\\s*=\\s*'([^']*)", 1],
-    ["className=\\{`([^`]*)", 1]
+    ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
   "tailwindCSS.includeLanguages": {
     "typescript": "html",
@@ -18,5 +15,5 @@
     "strings": true
   },
   "eslint.validate": ["javascript", "typescript", "typescriptreact"],
-  "tailwindCSS.experimental.configFile": "./tailwind.config.js"
+  "tailwindCSS.experimental.configFile": "./tailwind.config.ts"
 }
