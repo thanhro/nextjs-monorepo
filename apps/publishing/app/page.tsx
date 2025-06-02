@@ -1,5 +1,5 @@
 "use client"
-import { Button } from "@pnt-tms-partners/ui"
+import { Header } from "@pnt-tms-partners/ui"
 
 export default function Index() {
   /*
@@ -11,8 +11,8 @@ export default function Index() {
     <div>
       <div className="wrapper">
         <div className="container">
-          <Button>Ahihihi</Button>
           <div id="welcome">
+            <Header />
             <h1>
               <span> Hello there, </span>
               Welcome @pnt-tms-partners/publishing 👋

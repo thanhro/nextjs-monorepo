@@ -13,7 +13,7 @@
   "aliases": {
     "components": "@/libs/ui/src/components",
     "hooks": "@/libs/ui/src/hooks",
-    "utils": "@my-workspace/utils"
+    "utils": "@pnt-partners-tms/utils"
   },
   "iconLibrary": "lucide"
 }
