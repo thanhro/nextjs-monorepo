@@ -1,3 +1,6 @@
+"use client"
+import { Button } from "@pnt-tms-partners/ui"
+
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -8,9 +11,10 @@ export default function Index() {
     <div>
       <div className="wrapper">
         <div className="container">
+          <Button>Ahihihi</Button>
           <div id="welcome">
             <h1>
-              <span className="text-18"> Hello there, </span>
+              <span> Hello there, </span>
               Welcome @pnt-tms-partners/publishing 👋
             </h1>
           </div>

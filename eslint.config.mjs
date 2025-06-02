@@ -22,6 +22,8 @@ export default [
       "*.config.js",
       "*.lock",
       "README.md",
+      "**/vite.config.*.timestamp*",
+      "**/vitest.config.*.timestamp*",
     ],
   },
   {
