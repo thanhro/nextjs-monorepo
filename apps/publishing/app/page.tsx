@@ -10,7 +10,7 @@ export default function Index() {
         <div className="container">
           <div id="welcome">
             <h1>
-              <span> Hello there, </span>
+              <span className="text-18"> Hello there, </span>
               Welcome @pnt-tms-partners/publishing 👋
             </h1>
           </div>
