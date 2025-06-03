@@ -23,7 +23,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
-  font-family:
+  /* font-family:
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -37,7 +37,7 @@ html {
     Apple Color Emoji,
     Segoe UI Emoji,
     Segoe UI Symbol,
-    Noto Color Emoji;
+    Noto Color Emoji; */
   line-height: 1.5;
   tab-size: 4;
   scroll-behavior: smooth;

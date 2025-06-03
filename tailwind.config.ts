@@ -20,9 +20,6 @@ const config: Config = {
       },
     },
     extend: {
-      fontFamily: {
-        sans: ['"Noto Sans KR"', "sans-serif"],
-      },
       fontSize: {
         "12": ["12px", { lineHeight: "14px", letterSpacing: "0em" }],
         "14": ["14px", { lineHeight: "18px", letterSpacing: "0em" }],

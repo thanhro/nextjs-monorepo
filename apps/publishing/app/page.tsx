@@ -1,5 +1,4 @@
 "use client"
-import { Header } from "@pnt-tms-partners/ui"
 
 export default function Index() {
   /*
@@ -12,10 +11,9 @@ export default function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <Header />
             <h1>
               <span> Hello there, </span>
-              Welcome @pnt-tms-partners/publishing 👋
+              국가간에 우호관계의 👋
             </h1>
           </div>
 
