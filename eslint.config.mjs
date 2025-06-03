@@ -19,9 +19,11 @@ export default [
       "build",
       "public",
       "tsconfig.json",
-      "*.config.js",
+      // "*.config.js",
       "*.lock",
       "README.md",
+      "**/vite.config.*.timestamp*",
+      "**/vitest.config.*.timestamp*",
     ],
   },
   {
@@ -31,7 +33,7 @@ export default [
         "error",
         {
           enforceBuildableLibDependency: true,
-          allow: ["^.*/eslint(\\.base)?\\.config\\.[cm]?js$"],
+          allow: ["^.*/eslint(\\.base)?\\.config\\.[cm]?js$", "ui", "utils"],
           depConstraints: [
             {
               sourceTag: "*",

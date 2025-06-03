@@ -23,6 +23,9 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@pnt-tms-partners/ui": [
+        "../../libs/ui"
       ]
     },
     "outDir": "dist",

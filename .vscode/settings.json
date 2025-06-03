@@ -8,6 +8,12 @@
     "typescript": "html",
     "typescriptreact": "html"
   },
+  "files.associations": {
+  "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "eslint.validate": ["javascript", "typescript", "typescriptreact"],
-  "tailwindCSS.experimental.configFile": "./tailwind.config.js"
+  // "tailwindCSS.experimental.configFile": "./tailwind.config.ts"
 }
