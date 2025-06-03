@@ -20,6 +20,9 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['"Noto Sans KR"', "sans-serif"],
+      },
       fontSize: {
         // Heading
         h1: ["64px", { lineHeight: "88px", letterSpacing: "0px" }],
@@ -69,22 +72,22 @@ const config: Config = {
       },
       colors: {
         gray: {
-          1: "#f7f8f9",
-          2: "#eaedf0",
-          3: "#dbe0e6",
-          4: "#c5ccd3",
-          5: "#a9b2bc",
-          6: "#8d98a4",
-          7: "#6f7c8a",
-          8: "#4f5b6b",
-          9: "#333d4a",
-          10: "#1d242d",
-          11: "#121212",
-          12: "#101418",
+          1: "#eaf1f9",
+          2: "#bccde8",
+          3: "#9cbee5",
+          4: "#6f94d9",
+          5: "#5380d1",
+          6: "#2b60c6",
+          7: "#2457b4",
+          8: "#1c448d",
+          9: "#16366d",
+          10: "#112853",
+          11: "#606469", // same as 10
+          12: "#1D2023", // same as 10
         },
         primary: {
-          1: "#f3f6fd",
-          2: "#d6e3f7",
+          1: "#eaf1fe",
+          2: "#CDDEFB",
           3: "#b1cdf0",
           4: "#8ab5ea",
           5: "#639ce3",
