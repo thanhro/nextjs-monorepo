@@ -1,6 +1,7 @@
 @import "../../../libs/ui/src/styles/globals.css";
+@source "../../app/**/*.{ts,tsx,js,jsx}";
+@source "../../../libs/ui/src/**/*.{ts,tsx,js,jsx}";
 @config '../../../tailwind.config.ts';
-
 /*
   The default border color has changed to `currentcolor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still

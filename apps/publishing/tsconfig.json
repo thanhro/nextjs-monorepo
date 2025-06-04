@@ -20,19 +20,8 @@
         "name": "next"
       }
     ],
-    "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "@pnt-tms-partners/ui": [
-        "../../libs/ui"
-      ],
-      "@pnt-tms-partners/utils": [
-        "../../libs/utils"
-      ]
-    },
-    "outDir": "dist",
-    "rootDir": "."
+    // "outDir": "dist"
+    // "rootDir": "."
   },
   "include": [
     "../../apps/publishing/.next/types/**/*.ts",
@@ -42,7 +31,9 @@
     "app/**/*.ts",
     "app/**/*.tsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "../../libs/**/*",
+    "../../utils/**/*"
   ],
   "exclude": [
     "out-tsc",

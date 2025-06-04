@@ -1,4 +1,5 @@
 "use client"
+import { Button } from "@pnt-tms-partners/ui"
 
 export default function Index() {
   /*
@@ -11,6 +12,7 @@ export default function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
+            <Button size={"lg"}>Button</Button>
             <h1>
               <span> Hello there, </span>
               국가간에 우호관계의 👋

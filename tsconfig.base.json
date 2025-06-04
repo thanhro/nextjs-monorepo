@@ -16,6 +16,14 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "baseUrl": ".",
+    "paths": {
+      "@pnt-tms-partners/ui": ["libs/ui/src/index.ts"],
+      "@pnt-tms-partners/ui/*": ["libs/ui/src/*"],
+      "@pnt-tms-partners/utils": ["libs/utils/src/index.ts"],
+      "@pnt-tms-partners/utils/*": ["libs/utils/src/*"],
+      "@pnt-tms-partners/types": ["libs/types/src/index.ts"]
+    }
   }
 }
