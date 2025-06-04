@@ -55,9 +55,9 @@ nx serve publishing
 
 ## Documentation
 
-- 📚 [Installation Guide](docs/installation.md) - Detailed setup instructions
-- 🌊 [Git Flow Guide](docs/git-flow.md) - Branching strategy and workflow
-- 💬 [Commit Message Guide](docs/commit-guide.md) - Commit conventions and rules
+- 📚 [Installation Guide](./docs/installation_guide.md) - Detailed setup instructions
+- 🌊 [Git Flow Guide](./docs/git_flow_guide.md) - Branching strategy and workflow
+- 💬 [Commit Message Guide](./docs/commit_guide.md) - Commit conventions and rules
 
 ## Quick Commands
 
@@ -91,7 +91,7 @@ nx affected:test
 
 ## Contributing
 
-Please read our [Git Flow Guide](docs/git-flow.md) and [Commit Message Guide](docs/commit-guide.md) before contributing.
+Please read our [Git Flow Guide](./docs/git_flow_guide.md) and [Commit Message Guide](./docs/commit_guide.md) before contributing.
 
 1. Fork the repository
 2. Create a feature branch from develop
@@ -102,7 +102,6 @@ Please read our [Git Flow Guide](docs/git-flow.md) and [Commit Message Guide](do
 
 - [Nx Documentation](https://nx.dev)
 - [Nx Commands](https://nx.dev/nx-api/nx)
-- [Monorepo Best Practices](https://nx.dev/concepts/more-concepts/monorepo-nx-enterprise)
 
 ## License
 
