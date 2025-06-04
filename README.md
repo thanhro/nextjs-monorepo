@@ -6,10 +6,10 @@ This is a monorepo built with Nx, including multiple independent applications ma
 
 This project uses Nx to manage a monorepo with the following applications:
 
-- **PNT**
-- **Partners**
-- **TMS**
-- **Publishing**
+- **PNT** - [Brief description of PNT application]
+- **Partners** - [Brief description of Partners application]  
+- **TMS** - [Brief description of TMS application]
+- **Publishing** - [Brief description of Publishing application]
 
 ## Project Structure
 
@@ -33,7 +33,7 @@ This project uses Nx to manage a monorepo with the following applications:
 ## Quick Start
 
 ### System Requirements
-- Node.js >= 22.14.0
+- Node.js >= 16.x
 - npm >= 8.x or yarn >= 1.22.x
 - Nx CLI
 
@@ -55,10 +55,9 @@ nx serve publishing
 
 ## Documentation
 
-- 📚 [Installation Guide](./docs/installation.md) - Detailed setup instructions
-- 🌊 [Git Flow Guide](./docs/git-flow.md) - Branching strategy and workflow
-- 💬 [Commit Message Guide](./docs/commit-guide.md) - Commit conventions and rules
-- 🏗️ [Development Guide](./docs/development.md) - Development best practices
+- 📚 [Installation Guide](docs/installation.md) - Detailed setup instructions
+- 🌊 [Git Flow Guide](docs/git-flow.md) - Branching strategy and workflow
+- 💬 [Commit Message Guide](docs/commit-guide.md) - Commit conventions and rules
 
 ## Quick Commands
 
@@ -79,20 +78,20 @@ nx affected:test
 ## Application Details
 
 ### PNT
-...
+[Brief description and link to detailed docs if available]
 
 ### Partners
-...
+[Brief description and link to detailed docs if available]
 
 ### TMS (Transportation Management System)
-...
+[Brief description and link to detailed docs if available]
 
 ### Publishing
-...
+[Brief description and link to detailed docs if available]
 
 ## Contributing
 
-Please read our [Git Flow Guide](./docs/git-flow.md) and [Commit Message Guide](./docs/commit-guide.md) before contributing.
+Please read our [Git Flow Guide](docs/git-flow.md) and [Commit Message Guide](docs/commit-guide.md) before contributing.
 
 1. Fork the repository
 2. Create a feature branch from develop
