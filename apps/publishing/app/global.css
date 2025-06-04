@@ -1,4 +1,4 @@
-@import "../../../libs/ui/src/globals.css";
+@import "../../../libs/ui/src/styles/globals.css";
 @source "../../app/**/*.{ts,tsx,js,jsx}";
 @source "../../../libs/ui/src/**/*.{ts,tsx,js,jsx}";
 @config '../../../tailwind.config.ts';

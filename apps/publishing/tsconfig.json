@@ -26,6 +26,9 @@
       ],
       "@pnt-tms-partners/ui": [
         "../../libs/ui"
+      ],
+      "@pnt-tms-partners/utils": [
+        "../../libs/utils"
       ]
     },
     "outDir": "dist",
