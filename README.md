@@ -1,81 +1,114 @@
-# PntTmsPartners
+# Project Name
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+This is a monorepo built with Nx, including multiple independent applications managed within the same workspace.
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+## Overview
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/next?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+This project uses Nx to manage a monorepo with the following applications:
 
-## Finish your CI setup
+- **PNT**
+- **Partners**
+- **TMS**
+- **Publishing**
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/0anJPMSyQv)
+## Project Structure
 
-## Run tasks
-
-To run the dev server for your app, use:
-
-```sh
-npx nx dev pnt
+```
+├── apps/
+│   ├── pnt/                 # PNT Application
+│   ├── partners/            # Partners Application
+│   ├── tms/                 # TMS Application
+│   └── publishing/          # Publishing Application
+├── libs/                    # Shared libraries
+├── tools/                   # Custom tools and scripts
+├── docs/                    # Documentation
+│   ├── installation.md     # Installation guide
+│   ├── git-flow.md         # Git workflow
+│   └── commit-guide.md     # Commit message guide
+├── nx.json                  # Nx configuration
+├── package.json             # Dependencies
+└── README.md               # This documentation
 ```
 
-To create a production bundle:
+## Quick Start
 
-```sh
-npx nx build pnt
+### System Requirements
+- Node.js >= 22.14.0
+- npm >= 8.x or yarn >= 1.22.x
+- Nx CLI
+
+### Installation
+```bash
+git clone [repository-url]
+cd [project-name]
+npm install
 ```
 
-To see all available targets to run for a project, run:
-
-```sh
-npx nx show project pnt
+### Running Applications
+```bash
+# Run specific application
+nx serve pnt
+nx serve partners
+nx serve tms
+nx serve publishing
 ```
 
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
+## Documentation
 
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+- 📚 [Installation Guide](./docs/installation.md) - Detailed setup instructions
+- 🌊 [Git Flow Guide](./docs/git-flow.md) - Branching strategy and workflow
+- 💬 [Commit Message Guide](./docs/commit-guide.md) - Commit conventions and rules
+- 🏗️ [Development Guide](./docs/development.md) - Development best practices
 
-## Add new projects
+## Quick Commands
 
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
+```bash
+# Build all applications
+nx run-many --target=build --all
 
-Use the plugin's generator to create new projects.
+# Run tests
+nx run-many --target=test --all
 
-To generate a new application, use:
+# View dependency graph
+nx graph
 
-```sh
-npx nx g @nx/next:app demo
+# Run affected tests
+nx affected:test
 ```
 
-To generate a new library, use:
+## Application Details
 
-```sh
-npx nx g @nx/react:lib mylib
-```
+### PNT
+...
 
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
+### Partners
+...
 
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### TMS (Transportation Management System)
+...
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### Publishing
+...
 
-## Install Nx Console
+## Contributing
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+Please read our [Git Flow Guide](./docs/git-flow.md) and [Commit Message Guide](./docs/commit-guide.md) before contributing.
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+1. Fork the repository
+2. Create a feature branch from develop
+3. Follow our commit message conventions
+4. Create a Pull Request to the develop branch
 
-## Useful links
+## Reference Documentation
 
-Learn more:
+- [Nx Documentation](https://nx.dev)
+- [Nx Commands](https://nx.dev/nx-api/nx)
+- [Monorepo Best Practices](https://nx.dev/concepts/more-concepts/monorepo-nx-enterprise)
 
-- [Learn more about this workspace setup](https://nx.dev/nx-api/next?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+## License
 
-And join the Nx community:
+[Add license information if needed]
 
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+## Contact
+
+[Add contact information if needed]
