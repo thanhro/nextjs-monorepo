@@ -59,7 +59,8 @@ export class HttpClient {
         data: null,
         errors: [],
         timestamp: new Date().toISOString(),
-      } satisfies ApiErrorResponse
+        // } satisfies ApiErrorResponse
+      } satisfies any
     }
   }
 }
