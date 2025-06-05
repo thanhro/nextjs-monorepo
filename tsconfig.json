@@ -20,14 +20,18 @@
     },
     {
       "path": "./libs/utils"
+    },
+    {
+      "path": "./libs/types"
+    },
+    {
+      "path": "./libs/config"
     }
   ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   }
 }
