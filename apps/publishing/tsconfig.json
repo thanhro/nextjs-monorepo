@@ -15,7 +15,11 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    // "baseUrl": "./",
+    // "paths": {
+    //   "@publishing/*": ["*"]
+    // },
     // "outDir": "dist"
     // "rootDir": "."
   },
@@ -46,6 +50,9 @@
   "references": [
     {
       "path": "../../libs/ui"
+    },
+    {
+      "path": "../../libs/config"
     }
   ]
 }

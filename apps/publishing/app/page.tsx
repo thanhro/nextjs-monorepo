@@ -1,4 +1,5 @@
 "use client"
+import { IS_BROWSER } from "@pnt-tms-partners/config"
 import { Button } from "@pnt-tms-partners/ui"
 
 export default function Index() {
@@ -7,6 +8,8 @@ export default function Index() {
    *
    * Note: The corresponding styles are in the ./index.tailwind file.
    */
+  console.log("IS_BROWSER", IS_BROWSER)
+
   return (
     <div>
       <div className="wrapper">

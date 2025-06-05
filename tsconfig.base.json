@@ -19,9 +19,14 @@
     "customConditions": ["development"],
     "baseUrl": ".",
     "paths": {
-      "@pnt-tms-partners/ui": ["libs/ui/src/index.ts"],
+      "@publishing/*": ["apps/publishing/*"],
+      // "@pnt-tms-partners/config": ["libs/config/src/index.ts"],
+      "@pnt-tms-partners/config/*": ["libs/config/src/*"],
+      // "@pnt-tms-partners/types": ["libs/types/src/index.ts"],
+      "@pnt-tms-partners/types/*": ["libs/types/src/*"],
+      // "@pnt-tms-partners/ui": ["libs/ui/src/index.ts"],
       "@pnt-tms-partners/ui/*": ["libs/ui/src/*"],
-      "@pnt-tms-partners/utils": ["libs/utils/src/index.ts"],
+      // "@pnt-tms-partners/utils": ["libs/utils/src/index.ts"],
       "@pnt-tms-partners/utils/*": ["libs/utils/src/*"]
     }
   }

@@ -1,3 +1,4 @@
+import { ApiErrorResponse } from "@pnt-tms-partners/types"
 export class HttpClient {
   static baseUrl = ""
   static setBaseUrl(url: string) {
@@ -59,8 +60,7 @@ export class HttpClient {
         data: null,
         errors: [],
         timestamp: new Date().toISOString(),
-        // } satisfies ApiErrorResponse
-      } satisfies any
+      } satisfies ApiErrorResponse
     }
   }
 }
