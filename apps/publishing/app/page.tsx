@@ -13,9 +13,12 @@ export default function Index() {
   return (
     <div>
       <div className="wrapper">
-        <div className="container">
+        <div className="container rounded-md">
           <div id="welcome">
+            <Button size={"sm"}>Button</Button>
             <Button size={"lg"}>Button</Button>
+            <Button size={"xl"}>Button</Button>
+            <Button size={"xxl"}>Button</Button>
             <h1>
               <span> Hello there, </span>
               국가간에 우호관계의 👋

@@ -1,1 +1,1 @@
-export const ahihi = "123"
+export * from "./route"
